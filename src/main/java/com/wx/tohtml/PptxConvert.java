@@ -21,14 +21,17 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.ss.usermodel.FontFamily;
 import org.apache.poi.xslf.usermodel.XMLSlideShow;
+import org.apache.poi.xslf.usermodel.XSLFPictureData;
 import org.apache.poi.xslf.usermodel.XSLFSlide;
 import org.apache.poi.xslf.usermodel.XSLFTextParagraph;
 import org.apache.poi.xslf.usermodel.XSLFTextRun;
 import org.apache.poi.xslf.usermodel.XSLFTextShape;
 import org.apache.poi.xslf.util.PPTX2PNG;
 
+import fr.opensagres.xdocreport.core.io.internal.ByteArrayOutputStream;
+
 /** 
- * @Description 
+ * @Description 参与PPTX2PNG
  * @date 2013年12月7日
  * @author WangXin
  */

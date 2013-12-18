@@ -40,6 +40,36 @@ public class HtmlConvertTest {
 		}
 		c.convert(f, "src/test/resources/html/");
 	}
+	@Test
+	public void excel() {
+		File f = new File("src/test/resources/test3.xlsx");
+		IHtmlConvert c = new ExcelConvert();
+		File dic = new File("src/test/resources/html/");
+		if(!dic.isDirectory()) {
+			dic.mkdirs();
+		}
+		c.convert(f, "src/test/resources/html/");
+	}
+	@Test
+	public void ppt() {
+		File f = new File("src/test/resources/test4.ppt");
+		IHtmlConvert c = new PptConvert();
+		File dic = new File("src/test/resources/html/");
+		if(!dic.isDirectory()) {
+			dic.mkdirs();
+		}
+		c.convert(f, "src/test/resources/html/");
+	}
+	@Test
+	public void pptx() {
+		File f = new File("src/test/resources/test5.pptx");
+		IHtmlConvert c = new PptxConvert();
+		File dic = new File("src/test/resources/html/");
+		if(!dic.isDirectory()) {
+			dic.mkdirs();
+		}
+		c.convert(f, "src/test/resources/html/");
+	}
 
 }
 

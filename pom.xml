@@ -42,7 +42,7 @@
 		<!-- log -->
 		<!-- <dependency> <groupId>log4j</groupId> <artifactId>log4j</artifactId> 
 			<version>1.2.17</version> </dependency> -->
-			
+
 		<!-- xdocreport 对POI做了封装，处理docx -->
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
@@ -53,6 +53,13 @@
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>org.apache.poi.xwpf.converter.xhtml</artifactId>
 			<version>1.0.3</version>
+		</dependency>
+		
+		<!-- excel ToHtml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-examples</artifactId>
+			<version>3.9</version>
 		</dependency>
 	</dependencies>
 </project>

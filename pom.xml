@@ -54,12 +54,25 @@
 			<artifactId>org.apache.poi.xwpf.converter.xhtml</artifactId>
 			<version>1.0.3</version>
 		</dependency>
-		
+
 		<!-- excel ToHtml -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-examples</artifactId>
 			<version>3.9</version>
+		</dependency>
+		
+		<!-- pdfbox & guava used for pdf -->
+		<!-- timendum fork from https://github.com/timendum/pdf2html -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox-app</artifactId>
+			<version>1.8.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>15.0</version>
 		</dependency>
 	</dependencies>
 </project>

@@ -70,6 +70,16 @@ public class HtmlConvertTest {
 		}
 		c.convert(f, "src/test/resources/html/");
 	}
+	@Test
+	public void pdf() {
+		File f = new File("src/test/resources/test6.pdf");
+		IHtmlConvert c = new PdfConvert();
+		File dic = new File("src/test/resources/html/");
+		if(!dic.isDirectory()) {
+			dic.mkdirs();
+		}
+		c.convert(f, "src/test/resources/html/");
+	}
 
 }
 
